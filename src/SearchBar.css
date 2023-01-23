@@ -1,0 +1,36 @@
+.searchBarContainer {
+  /* text-align: center; */
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.searchButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.searchBar {
+  border-radius: 50px;
+  min-width: 35rem;
+  padding: 1rem;
+  font-size: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  appearance: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+}
+
+button {
+  background-color: #303134;
+  appearance: none;
+  border-style: none;
+  color: white;
+  padding: 1rem 1rem;
+  border-radius: 6px;
+  font-size: 1rem;
+}
